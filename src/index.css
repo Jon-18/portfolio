@@ -233,7 +233,6 @@ h1 {
 }
 
 @media (max-width: 768px) {
-  /* ---------- GLOBAL ---------- */
   body {
     padding-bottom: 120px;
   }
@@ -246,7 +245,6 @@ h1 {
     font-size: 1.2em;
   }
 
-  /* ---------- HEADER ---------- */
   .header {
     width: 90%;
     padding: 1rem;
@@ -267,7 +265,6 @@ h1 {
     margin-right: 0;
   }
 
-  /* ---------- MAIN SECTION ---------- */
   .main {
     flex-direction: column;
     text-align: center;
@@ -286,7 +283,6 @@ h1 {
     height: auto;
   }
 
-  /* ---------- PROJECTS ---------- */
   .project-box {
     flex-direction: column;
     gap: 2em;
@@ -297,7 +293,6 @@ h1 {
     width: 90%;
   }
 
-  /* ---------- ABOUT / EXPERIENCE ---------- */
   .experience-box {
     flex-direction: column;
     padding: 1.5em;
@@ -314,30 +309,30 @@ h1 {
     font-size: 1.2em;
   }
 
-  /* ---------- ICON CAROUSEL ---------- */
   .icon-group img {
     width: 12%;
   }
 
-  /* ---------- FOOTER ---------- */
-  .footer {
+
+ .footer {
     height: auto;
     display: flex;
     flex-direction: row;
-    padding: 1em;
+    padding: 0.5em;
   }
 
   .footer a {
-    margin-right: 1em;
+    margin-left: -10px;
   }
 
   .footer p {
-    margin-left: -10em;
-    font-size: 1.2em;
+    margin-left: -1em;
+    margin-right: 2em;
+    font-size: 0.8em;
   }
 
   .footer img {
-    width: 12%;
+    width: 20%;
   }
 }
 
