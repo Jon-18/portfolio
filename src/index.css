@@ -231,3 +231,123 @@ h1 {
   width: 5%;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  /* ---------- GLOBAL ---------- */
+  body {
+    padding-bottom: 120px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .highlight {
+    font-size: 1.2em;
+  }
+
+  /* ---------- HEADER ---------- */
+  .header {
+    width: 90%;
+    padding: 1rem;
+    top: 0.5rem;
+  }
+
+  .header ul {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header li {
+    font-size: 1em;
+  }
+
+  .header .title-header {
+    margin-right: 0;
+  }
+
+  /* ---------- MAIN SECTION ---------- */
+  .main {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5em;
+    gap: 2em;
+  }
+
+  .main-tag {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 2em;
+  }
+
+  .main-logo {
+    width: 80%;
+    height: auto;
+  }
+
+  /* ---------- PROJECTS ---------- */
+  .project-box {
+    flex-direction: column;
+    gap: 2em;
+    padding: 1em;
+  }
+
+  .project-body {
+    width: 90%;
+  }
+
+  /* ---------- ABOUT / EXPERIENCE ---------- */
+  .experience-box {
+    flex-direction: column;
+    padding: 1.5em;
+    text-align: center;
+  }
+
+  .experience-box h1 {
+    font-size: 5em;
+    width: 100%;
+  }
+
+  .experience-box .experience-body {
+    width: 100%;
+    font-size: 1.2em;
+  }
+
+  /* ---------- ICON CAROUSEL ---------- */
+  .icon-group img {
+    width: 12%;
+  }
+
+  /* ---------- FOOTER ---------- */
+  .footer {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+  }
+
+  .footer a {
+    margin-right: 1em;
+  }
+
+  .footer p {
+    margin-left: -10em;
+    font-size: 1.2em;
+  }
+
+  .footer img {
+    width: 12%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-tag {
+    margin: 3em;
+    width: 70%;
+  }
+
+  .project-body {
+    width: 45%;
+  }
+}
