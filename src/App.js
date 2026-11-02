@@ -2,9 +2,9 @@ const projects = [
   {
     name: "Sibonga Dental Clinic",
     description: "",
-    link: "https://clinicsibongaclinic.xyz/",
+    link: "https://dental-clinic-front-end.vercel.app/",
     alternativeLink:
-      "dental-clinic-front-end.vercel.app",
+      "https://dental-clinic-front-end.vercel.app/",
     image: "picture/sibongaDental.png",
   },
   {
@@ -16,7 +16,7 @@ const projects = [
   {
     name: "Bakewell Street",
     description: "",
-    link: "https://clinicsibongaclinic.xyz/",
+    link: "https://bakewell-street.vercel.app/",
     alternativeLink:
       "https://bakewell-street.vercel.app/",
     image: "picture/bakewell.png",
