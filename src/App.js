@@ -4,7 +4,7 @@ const projects = [
     description: "",
     link: "https://clinicsibongaclinic.xyz/",
     alternativeLink:
-      "https://front-end-for-dental-cli-git-4868b4-jonathan-esguerras-projects.vercel.app/",
+      "dental-clinic-front-end.vercel.app",
     image: "picture/sibongaDental.png",
   },
   {
@@ -18,8 +18,8 @@ const projects = [
     description: "",
     link: "https://clinicsibongaclinic.xyz/",
     alternativeLink:
-      "https://front-end-for-dental-cli-git-4868b4-jonathan-esguerras-projects.vercel.app/",
-    image: "picture/sibongaDental.png",
+      "https://bakewell-street.vercel.app/",
+    image: "picture/bakewell.png",
   },
 ];
 
@@ -124,26 +124,27 @@ function AboutMe() {
         </div>
       </div>
       <h1>TECHSTACKS</h1>
-      <div className="icon-carousel">
+        <div className="icon-carousel">
         <div className="icon-group">
-          <img src="picture/html.png" alt="HTML ICON" />
-          <img src="picture/css.png" alt="CSS ICON" />
-          <img src="picture/javascript.png" alt="JAVASCRIPT ICON" />
-          <img src="picture/node.png" alt="NODE ICON" />
-          <img src="picture/mysql.png" alt="SQL ICON" />
-          <img src="picture/zoho.svg" alt="ZOHO ICON" />
-          <img src="picture/wordpress.png" alt="WORDPRESS ICON" />
-          <img src="picture/ghl.svg" alt="GHL ICON" />
-          {/* For duplicate*/}
+          <img src="picture/html.png" alt="HTML" />
+          <img src="picture/css.png" alt="CSS" />
+          <img src="picture/javascript.png" alt="JavaScript" />
+          <img src="picture/node.png" alt="Node.js" />
+          <img src="picture/mysql.png" alt="MySQL" />
+          <img src="picture/zoho.svg" alt="Zoho" />
+          <img src="picture/wordpress.png" alt="WordPress" />
+          <img src="picture/ghl.svg" alt="GoHighLevel" />
+        </div>
 
-          <img src="picture/html.png" alt="HTML ICON" />
-          <img src="picture/css.png" alt="CSS ICON" />
-          <img src="picture/javascript.png" alt="JAVASCRIPT ICON" />
-          <img src="picture/node.png" alt="NODE ICON" />
-          <img src="picture/mysql.png" alt="SQL ICON" />
-          <img src="picture/zoho.svg" alt="ZOHO ICON" />
-          <img src="picture/wordpress.png" alt="WORDPRESS ICON" />
-          <img src="picture/ghl.svg" alt="GHL ICON" />
+        <div className="icon-group" aria-hidden="true">
+          <img src="picture/html.png" alt="" />
+          <img src="picture/css.png" alt="" />
+          <img src="picture/javascript.png" alt="" />
+          <img src="picture/node.png" alt="" />
+          <img src="picture/mysql.png" alt="" />
+          <img src="picture/zoho.svg" alt="" />
+          <img src="picture/wordpress.png" alt="" />
+          <img src="picture/ghl.svg" alt="" />
         </div>
       </div>
     </div>
