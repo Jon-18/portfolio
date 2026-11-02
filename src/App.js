@@ -14,7 +14,7 @@ const projects = [
     image: "picture/theColivingGirl.png",
   },
   {
-    name: "Sibonga Dental Clinic",
+    name: "Bakewell Street",
     description: "",
     link: "https://clinicsibongaclinic.xyz/",
     alternativeLink:
